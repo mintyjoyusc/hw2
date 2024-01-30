@@ -9,7 +9,7 @@
 #include "db_parser.h"
 #include "product_parser.h"
 #include "util.h"
-
+//hi, testing in VS Code
 using namespace std;
 struct ProdNameSorter {
     bool operator()(Product* p1, Product* p2) {
