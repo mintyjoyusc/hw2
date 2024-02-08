@@ -18,6 +18,9 @@ void MyDataStore::addUser(User* u) {
 
     users_.insert(make_pair(u->getName(), u)); 
 }
+void MyDataStore::addProductToCart(const std::string& username, Product* p) {
+    carts_[username].push_back(p);
+}
 
 std::vector<Product*> MyDataStore::search(std::vector<std::string>& terms, int type) {
       std::set<Product*> results;

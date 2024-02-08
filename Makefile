@@ -22,8 +22,8 @@ product_parser.o: product_parser.cpp product_parser.h product.h
 	$(CXX) $(CXXFLAGS) $(DEFS) -o $@ -c product_parser.cpp
 util.o: util.cpp util.h
 	$(CXX) $(CXXFLAGS) $(DEFS) -o $@ -c util.cpp
-myDataStore.o: myDataStore.cpp myDataDtore.h datastore.h
-	 $(CXX) $(CXXFLAGS) $(DEFS) -o $@ -c mydatastore.cpp
+myDataStore.o: myDataStore.cpp myDataStore.h datastore.h
+	 $(CXX) $(CXXFLAGS) $(DEFS) -o $@ -c myDataStore.cpp
 book.o: book.cpp book.h
 	$(CXX) $(CXXFLAGS) $(DEFS) -o $@ -c book.cpp
 movie.o: movie.cpp movie.h
