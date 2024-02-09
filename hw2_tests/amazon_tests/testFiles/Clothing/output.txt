@@ -11,4 +11,3 @@ Menu:
 ====================================
 
 Enter command: 
-deleting Men's Fitted Shirt,39.99,25

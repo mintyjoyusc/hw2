@@ -24,18 +24,22 @@ Author: Carrano and Henry ISBN: 978-013292372-9
 
 
 Enter command: 
+Product added to cart
 
 Enter command: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 Author: Carrano and Henry ISBN: 978-013292372-9
 0 0 left.
 =======
 1: Data Abstraction & Problem Solving with C++
+=======
+Item 1
+Data Abstraction & Problem Solving with C++
+>>>>>>> 47229486abc4476413494b2670679877b00e040b
 Author: Carrano and Henry ISBN: 978-013292372-9
 79.99 20 left.
 >>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
-deleting Data Abstraction & Problem Solving with C++,79.99,20
-deleting Graveyard of the Pacific,9.95,7

@@ -11,6 +11,3 @@ Menu:
 ====================================
 
 Enter command: 
-deleting FRC Fan T-Shirt,17,3
-deleting Men's Fitted Shirt,39.99,25
-deleting Women's Blouse,34.99,8

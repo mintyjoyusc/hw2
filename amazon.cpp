@@ -94,36 +94,53 @@ int main(int argc, char* argv[])
             else if (cmd == "ADD") {
                 string username;
                 int hitNumber;
-                if (ss >> username >> hitNumber) {
+                if ((ss >> username >> hitNumber) && ds.userExists(username)) { // Check if username exists
+
                     if (hitNumber >= 1 && hitNumber <= static_cast<int>(hits.size())) {
+
                         // Subtract 1 because hits are displayed starting from 1 but indexed from 0
                         ds.addProductToCart(username, hits[hitNumber - 1]);
-                    } else {
+                        cout << "Product added to cart" << endl; // You can change the message as needed
+                    } 
+                    else {
+
                         cout << "Invalid hit number" << endl;
                     }
-                } else {
-                    cout << "Invalid arguments for ADD" << endl;
+                } 
+                else {
+
+                    cout << "Invalid request" << endl; // Username does not exist or other input error
                 }
             }
             else if (cmd == "VIEWCART") {
+
                 string username;
                 if (ss >> username) {
+
                     ds.viewCart(username);
-                } else {
+                } 
+                else {
+
                     cout << "Invalid username for VIEWCART" << endl;
                 }
             }
             else if (cmd == "BUYCART") {
+
                 string username;
                 if (ss >> username) {
+
                     ds.buyCart(username);
-                } else {
+                } 
+                else {
+
                     cout << "Invalid username for BUYCART" << endl;
                 }
             }
             else if ( cmd == "QUIT") {
+
                 string filename;
                 if(ss >> filename) {
+                    
                     ofstream ofile(filename.c_str());
                     ds.dump(ofile);
                     ofile.close();

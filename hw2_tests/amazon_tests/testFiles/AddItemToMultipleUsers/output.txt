@@ -16,13 +16,17 @@ No results found!
 =======
 Hit   1
 Hidden Figures DVD
-Genre: Drama
+Genre: Drama Rating: PG
 17.99 1 left.
 
 >>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
+<<<<<<< HEAD
 Invalid hit number
+=======
+Product added to cart
+>>>>>>> 47229486abc4476413494b2670679877b00e040b
 
 Enter command: 
 <<<<<<< HEAD
@@ -30,12 +34,13 @@ No results found!
 =======
 Hit   1
 Hidden Figures DVD
-Genre: Drama
+Genre: Drama Rating: PG
 17.99 1 left.
 
 >>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
+<<<<<<< HEAD
 Invalid hit number
 
 Enter command: 
@@ -47,17 +52,21 @@ Cart is empty or user does not exist.
 =======
 1: Hidden Figures DVD
 Genre: Drama
+=======
+Product added to cart
+
+Enter command: 
+Item 1
+Hidden Figures DVD
+Genre: Drama Rating: PG
+>>>>>>> 47229486abc4476413494b2670679877b00e040b
 17.99 1 left.
 
 Enter command: 
-1: Hidden Figures DVD
-Genre: Drama
+Item 1
+Hidden Figures DVD
+Genre: Drama Rating: PG
 17.99 1 left.
 >>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
-deleting Data Abstraction & Problem Solving with C++,79.99,20
-deleting Great Heights,22.49,5
-deleting Great Men and Women of Troy,19.5,5
-deleting Hidden Figures DVD,17.99,1
-deleting Men's Fitted Shirt,39.99,25
