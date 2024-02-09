@@ -1,10 +1,31 @@
 <products>
+<<<<<<< HEAD
 
 
 0
 0
 Drama
 PG
+=======
+movie
+' '
+7.5
+1000
+Neo-deconstructionalism
+G
+movie
+Hidden Figures DVD
+17.99
+1
+Drama
+PG
+movie
+Logan
+99.99
+99
+Action
+R
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 </products>
 <users>
 user 10000 0

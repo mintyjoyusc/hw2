@@ -12,9 +12,29 @@ Menu:
 
 Enter command: 
 Hit   1
+<<<<<<< HEAD
 
 Author: Carrano and Henry ISBN: 978-013292372-9
 0 0 left.
+=======
+Data Abstraction & Problem Solving with C++
+Author: Carrano and Henry ISBN: 978-013292372-9
+79.99 20 left.
+
+Hit   2
+Great Men and Women of Troy
+Author: Tommy Trojan ISBN: 978-000000000-1
+19.5 5 left.
+
+Hit   3
+Hidden Figures DVD
+Genre: Drama
+17.99 5 left.
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 
 Enter command: 
+deleting Data Abstraction & Problem Solving with C++,79.99,20
+deleting Great Men and Women of Troy,19.5,5
+deleting Hidden Figures DVD,17.99,5
+deleting Men's Fitted Shirt,39.99,25

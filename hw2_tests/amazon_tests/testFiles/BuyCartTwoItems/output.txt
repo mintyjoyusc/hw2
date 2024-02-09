@@ -11,20 +11,49 @@ Menu:
 ====================================
 
 Enter command: 
+<<<<<<< HEAD
 No results found!
+=======
+Hit   1
+Hidden Figures DVD
+Genre: Drama
+17.99 5 left.
+
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
 Invalid hit number
 
 Enter command: 
+<<<<<<< HEAD
 No results found!
+=======
+Hit   1
+Hidden Figures DVD
+Genre: Drama
+17.99 5 left.
+
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
 Invalid hit number
 
 Enter command: 
+<<<<<<< HEAD
 Cart is empty or user does not exist.
+=======
+1: Hidden Figures DVD
+Genre: Drama
+17.99 5 left.
+2: Hidden Figures DVD
+Genre: Drama
+17.99 5 left.
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
 
 Enter command: 
+deleting Data Abstraction & Problem Solving with C++,79.99,20
+deleting Great Men and Women of Troy,19.5,5
+deleting Hidden Figures DVD,17.99,3
+deleting Men's Fitted Shirt,39.99,25

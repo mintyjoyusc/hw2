@@ -26,3 +26,8 @@ Enter command:
 Cart is empty or user does not exist.
 
 Enter command: 
+deleting 00001010 00001111,0.11,5
+deleting Data Abstraction & Problem Solving with C++,79.99,20
+deleting Great Heights,22.49,5
+deleting Great Men and Women and Robot's of Troy,19.5,5
+deleting Hidden Figures DVD,17.99,5

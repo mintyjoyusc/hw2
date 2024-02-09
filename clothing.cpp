@@ -6,7 +6,7 @@
 
 using namespace std;
 
-Clothing::Clothing(const std::string size, const std::string brand) : Product(category_, name_, price_, qty_){
+Clothing::Clothing(const std::string size, const std::string brand, const std::string category_, const std::string name_, double price_, int qty_) : Product(category_, name_, price_, qty_){
     size_ = size;
     brand_ = brand;
 }
@@ -24,7 +24,7 @@ set<std::string> Clothing::keywords() const{
 
 std::string Clothing::displayString() const{
     std::stringstream ss;
-    ss << name_ << "\n" << "Brand: " << brand_ << "\n" << price_ << " " << qty_ << " left.";
+    ss << name_ << "\n" << "Size: " << size_ << "Brand: " << brand_ << "\n" << price_ << " " << qty_ << " left.";
     return ss.str();
 }
 

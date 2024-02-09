@@ -6,7 +6,7 @@
 
 using namespace std;
 
-Movie::Movie(const std::string genre, const std::string rating) : Product(category_, name_, price_, qty_){
+Movie::Movie(const std::string genre, const std::string rating, const std::string category_, const std::string name_, double price_, int qty_) : Product(category_, name_, price_, qty_){
     genre_ = genre;
     rating_ = rating;
 }

@@ -11,3 +11,6 @@ Menu:
 ====================================
 
 Enter command: 
+deleting ' ',7.5,1000
+deleting Hidden Figures DVD,17.99,1
+deleting Logan,99.99,99

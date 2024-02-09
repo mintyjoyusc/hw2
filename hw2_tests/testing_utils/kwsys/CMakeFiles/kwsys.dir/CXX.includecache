@@ -6,6 +6,7 @@
 
 #IncludeRegexTransform: ^([ 	]*[#%][ 	]*(include|import)[ 	]*)(KWSYS_HEADER)[ 	]*\(([^),]*)\) KWSYS_HEADER(%)=<kwsys/%>
 
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Configure.hxx.in
 @KWSYS_NAMESPACE@/Configure.h
 -
@@ -13,6 +14,15 @@
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Directory.cxx
 kwsysPrivate.h
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/Configure.hxx.in
+@KWSYS_NAMESPACE@/Configure.h
+-
+
+/work/hw2/hw2_tests/testing_utils/kwsys/Directory.cxx
+kwsysPrivate.h
+/work/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 kwsys/Directory.hxx
 -
 kwsys/Configure.hxx
@@ -20,11 +30,19 @@ kwsys/Configure.hxx
 kwsys/Encoding.hxx
 -
 Configure.hxx.in
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Configure.hxx.in
 Directory.hxx.in
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Directory.hxx.in
 Encoding.hxx.in
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/Configure.hxx.in
+Directory.hxx.in
+/work/hw2/hw2_tests/testing_utils/kwsys/Directory.hxx.in
+Encoding.hxx.in
+/work/hw2/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 string
 -
 vector
@@ -52,19 +70,31 @@ sys/types.h
 dirent.h
 -
 
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Directory.hxx.in
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/Directory.hxx.in
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 @KWSYS_NAMESPACE@/Configure.h
 -
 string
 -
 
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Encoding.h.in
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/Encoding.h.in
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 @KWSYS_NAMESPACE@/Configure.h
 -
 wchar.h
 -
 
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 @KWSYS_NAMESPACE@/Configure.hxx
 -
 string
@@ -72,17 +102,29 @@ string
 vector
 -
 
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/EncodingCXX.cxx
 kwsysPrivate.h
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/EncodingCXX.cxx
+kwsysPrivate.h
+/work/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 kwsys/Encoding.hxx
 -
 kwsys/Encoding.h
 -
 Encoding.h.in
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Encoding.h.in
 Encoding.hxx.in
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/Encoding.h.in
+Encoding.hxx.in
+/work/hw2/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 stdlib.h
 -
 string.h
@@ -96,6 +138,7 @@ ctype.h
 shellapi.h
 -
 
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/FStream.cxx
 kwsysPrivate.h
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
@@ -105,6 +148,17 @@ FStream.hxx.in
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/FStream.hxx.in
 
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/FStream.hxx.in
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/FStream.cxx
+kwsysPrivate.h
+/work/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+kwsys/FStream.hxx
+-
+FStream.hxx.in
+/work/hw2/hw2_tests/testing_utils/kwsys/FStream.hxx.in
+
+/work/hw2/hw2_tests/testing_utils/kwsys/FStream.hxx.in
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 @KWSYS_NAMESPACE@/Configure.hxx
 -
 @KWSYS_NAMESPACE@/Encoding.hxx
@@ -114,6 +168,7 @@ fstream
 ext/stdio_filebuf.h
 -
 
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/RegularExpression.cxx
 kwsysPrivate.h
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
@@ -121,12 +176,25 @@ kwsys/RegularExpression.hxx
 -
 RegularExpression.hxx.in
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/RegularExpression.hxx.in
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/RegularExpression.cxx
+kwsysPrivate.h
+/work/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+kwsys/RegularExpression.hxx
+-
+RegularExpression.hxx.in
+/work/hw2/hw2_tests/testing_utils/kwsys/RegularExpression.hxx.in
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 stdio.h
 -
 string.h
 -
 
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/RegularExpression.hxx.in
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/RegularExpression.hxx.in
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 @KWSYS_NAMESPACE@/Configure.h
 -
 @KWSYS_NAMESPACE@/Configure.hxx
@@ -134,11 +202,19 @@ string.h
 string
 -
 
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/SystemTools.cxx
 fcntl.h
 -
 kwsysPrivate.h
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/SystemTools.cxx
+fcntl.h
+-
+kwsysPrivate.h
+/work/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 kwsys/RegularExpression.hxx
 -
 kwsys/SystemTools.hxx
@@ -162,6 +238,7 @@ sstream
 vector
 -
 Directory.hxx.in
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Directory.hxx.in
 Encoding.hxx.in
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
@@ -171,6 +248,17 @@ RegularExpression.hxx.in
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/RegularExpression.hxx.in
 SystemTools.hxx.in
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/SystemTools.hxx.in
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/Directory.hxx.in
+Encoding.hxx.in
+/work/hw2/hw2_tests/testing_utils/kwsys/Encoding.hxx.in
+FStream.hxx.in
+/work/hw2/hw2_tests/testing_utils/kwsys/FStream.hxx.in
+RegularExpression.hxx.in
+/work/hw2/hw2_tests/testing_utils/kwsys/RegularExpression.hxx.in
+SystemTools.hxx.in
+/work/hw2/hw2_tests/testing_utils/kwsys/SystemTools.hxx.in
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 ctype.h
 -
 errno.h
@@ -246,7 +334,11 @@ stdio.h
 stdlib.h
 -
 
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/SystemTools.hxx.in
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/SystemTools.hxx.in
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 @KWSYS_NAMESPACE@/Configure.hxx
 -
 iosfwd
@@ -268,7 +360,11 @@ stdarg.h
 stdio.h
 -
 
+<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+=======
+/work/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
+>>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 kwsys/Directory.hxx
 -
 kwsys/std/vector

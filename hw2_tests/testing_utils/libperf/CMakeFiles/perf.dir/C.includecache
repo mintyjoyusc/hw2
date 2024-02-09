@@ -23,8 +23,6 @@ stdlib.h
 -
 string.h
 -
-stropts.h
--
 sys/syscall.h
 -
 sys/types.h
