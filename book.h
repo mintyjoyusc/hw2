@@ -10,7 +10,7 @@
 
 class Book : public Product{
     public: 
-        Book(const std::string ISBN, const std::string author);
+        Book(const std::string ISBN, const std::string author, const std::string category_, const std::string name_, double price_, int qty_);
         virtual ~Book();
         std::set<std::string> keywords() const;
         std::string displayString() const;

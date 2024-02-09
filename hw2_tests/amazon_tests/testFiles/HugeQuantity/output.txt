@@ -12,9 +12,11 @@ Menu:
 
 Enter command: 
 Hit   1
-The Killer Rabbit of Caerbannog: A Documentary         
-Genre: Disaster Rating: PG-13
-0.01   800000 left.
+The Killer Rabbit of Caerbannog: A Documentary
+Genre: Disaster
+0.01 800000 left.
 
 
 Enter command: 
+deleting The Killer Rabbit of Caerbannog: A Documentary,0.01,800000
+deleting foo,20.25,4

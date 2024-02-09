@@ -10,7 +10,7 @@
 
 class Clothing : public Product{
     public: 
-        Clothing(const std::string size, const std::string brand);
+        Clothing(const std::string size, const std::string brand, const std::string category_, const std::string name_, double price_, int qty_);
         virtual ~Clothing();
         std::set<std::string> keywords() const;
         std::string displayString() const;

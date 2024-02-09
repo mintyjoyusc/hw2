@@ -12,18 +12,18 @@ Menu:
 
 Enter command: 
 Hit   1
-Hidden Figures DVD         
-Genre: Drama Rating: PG
-17.99   1 left.
+Hidden Figures DVD
+Genre: Drama
+17.99 1 left.
 
 
 Enter command: 
 
 Enter command: 
 Hit   1
-Hidden Figures DVD         
-Genre: Drama Rating: PG
-17.99   1 left.
+Hidden Figures DVD
+Genre: Drama
+17.99 1 left.
 
 
 Enter command: 
@@ -33,3 +33,8 @@ Enter command:
 Enter command: 
 
 Enter command: 
+deleting Data Abstraction & Problem Solving with C++,79.99,20
+deleting Great Heights,22.49,5
+deleting Great Men and Women of Troy,19.5,5
+deleting Hidden Figures DVD,17.99,0
+deleting Men's Fitted Shirt,39.99,25

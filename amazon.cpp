@@ -131,11 +131,6 @@ int main(int argc, char* argv[])
                 done = true;
             }
 	    /* Add support for other commands here */
-
-
-
-
-
             else {
                 cout << "Unknown command" << endl;
             }

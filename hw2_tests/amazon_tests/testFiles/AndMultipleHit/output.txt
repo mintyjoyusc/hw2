@@ -12,14 +12,19 @@ Menu:
 
 Enter command: 
 Hit   1
-Great Heights         
-Genre: and Rating: PG-13
-22.49   5 left.
+Great Heights
+Genre: and
+22.49 5 left.
 
 Hit   2
-Great Men and Women of Troy         
+Great Men and Women of Troy
 Author: Tommy Trojan ISBN: 978-000000000-1
-19.50   5 left.
+19.5 5 left.
 
 
 Enter command: 
+deleting Data Abstraction & Problem Solving with C++,79.99,20
+deleting Great Heights,22.49,5
+deleting Great Men and Women of Troy,19.5,5
+deleting Hidden Figures DVD,17.99,5
+deleting Men's Fitted Shirt,39.99,25
