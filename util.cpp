@@ -18,8 +18,7 @@ std::set<std::string> parseStringToWords(string rawWords)
     std::set<std::string> keywords;
     std::string word;
     std:: string temp;
-    std::transform(rawWords.begin(), rawWords.end(), rawWords.begin(), ::tolower);
-    
+    rawWords = convToLower(rawWords);    
     
     for(int i = 0; i < rawWords.length(); i++){
         if(isalnum(rawWords.at(i))){
@@ -33,7 +32,7 @@ std::set<std::string> parseStringToWords(string rawWords)
             word.clear();
         }
         else{
-            temp.clear();
+            word.clear();
         }
     }
 

@@ -16,6 +16,7 @@ Clothing::~Clothing(){
 }
 
 set<std::string> Clothing::keywords() const{
+
     std::set<std::string> keywords_ = parseStringToWords(name_);
     std::set<std::string> brandWords = parseStringToWords(brand_);
     keywords_.insert(brandWords.begin(), brandWords.end());
@@ -23,12 +24,14 @@ set<std::string> Clothing::keywords() const{
 }
 
 std::string Clothing::displayString() const{
+
     std::stringstream ss;
-    ss << name_ << "\n" << "Size: " << size_ << "Brand: " << brand_ << "\n" << price_ << " " << qty_ << " left.";
+    ss << name_ << "\n" << "Size: " << size_ << " Brand: " << brand_ << "\n" << price_ << " " << qty_ << " left.";
     return ss.str();
 }
 
 void::Clothing::dump(std::ostream& os) const{
-    os << category_ << "\n" << name_ << "\n" << price_ << "\n" << qty_ << "\n" << brand_ << std::endl;
+    
+    os << category_ << "\n" << name_ << "\n" << price_ << "\n" << qty_ << "\n" << size_ << "\n" << brand_ << std::endl;
 
 }

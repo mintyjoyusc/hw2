@@ -18,10 +18,6 @@ Author: Tommy Trojan ISBN: 978-000000000-1
 
 
 Enter command: 
+Invalid request
 
 Enter command: 
-deleting Data Abstraction & Problem Solving with C++,79.99,20
-deleting Great Heights,22.49,5
-deleting Great Men and Women of Troy,19.5,5
-deleting Hidden Figures DVD,17.99,1
-deleting Men's Fitted Shirt,39.99,25

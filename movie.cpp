@@ -16,6 +16,7 @@ Movie::~Movie(){
 }
 
 set<std::string> Movie::keywords() const{
+
     std::set<std::string> keywords_ = parseStringToWords(name_);
     std::set<std::string> genreWords = parseStringToWords(genre_);
 
@@ -25,12 +26,14 @@ set<std::string> Movie::keywords() const{
 }
 
 std::string Movie::displayString() const{
+
     std::stringstream ss;
-    ss << name_ << "\n" << "Genre: " << genre_ << "\n" << price_ << " " << qty_ << " left.";
+    ss << name_ << "\n" << "Genre: " << genre_ << " Rating: " << rating_ << "\n" << price_ << " " << qty_ << " left.";
     return ss.str();
 }
 
 void::Movie::dump(std::ostream& os) const{
+    
     os << category_ << "\n" << name_ << "\n" << price_ << "\n" << qty_ << "\n" << genre_ << "\n" << rating_ << std::endl;
 
 }
