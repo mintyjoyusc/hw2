@@ -12,14 +12,9 @@ Menu:
 
 Enter command: 
 Hit   1
-FOO         
-Genre: Disaster Rating: PG-13
-0.99   8 left.
 
-Hit   2
-foo         
-Genre: Programming Rating: TV-14
-20.25   4 left.
+Genre: Disaster
+0 0 left.
 
 
 Enter command: 

@@ -1,4 +1,4 @@
-#include "myDataStore.h"
+#include "mydatastore.h"
 #include "util.h"  
 
 MyDataStore::MyDataStore() {
@@ -17,9 +17,6 @@ void MyDataStore::addProduct(Product* p) {
 void MyDataStore::addUser(User* u) {
 
     users_.insert(make_pair(u->getName(), u)); 
-}
-void MyDataStore::addProductToCart(const std::string& username, Product* p) {
-    carts_[username].push_back(p);
 }
 
 std::vector<Product*> MyDataStore::search(std::vector<std::string>& terms, int type) {
@@ -52,32 +49,6 @@ std::vector<Product*> MyDataStore::search(std::vector<std::string>& terms, int t
 
     // Convert the set of results to a vector and return
     return std::vector<Product*>(results.begin(), results.end());
-}
-
-void MyDataStore::viewCart(const std::string& username) {
-    if (carts_.find(username) != carts_.end()) {
-        std::vector<Product*>& cartItems = carts_[username];
-        for (std::vector<Product*>::iterator it = cartItems.begin(); it != cartItems.end(); ++it) {
-            std::cout << (*it)->displayString() << std::endl;
-        }
-    } else {
-        std::cout << "Cart is empty or user does not exist." << std::endl;
-    }
-}
-
-void MyDataStore::buyCart(const std::string& username) {
-    if (carts_.find(username) != carts_.end()) {
-        std::vector<Product*>& cartItems = carts_[username];
-        for (std::vector<Product*>::iterator it = cartItems.begin(); it != cartItems.end();) {
-            Product* product = *it;
-            if (product->getQty() > 0) {
-                product->subtractQty(1);
-                it = cartItems.erase(it);  // Safely erase and advance the iterator
-            } else {
-                ++it;  // Move to the next item if this one cannot be purchased
-            }
-        }
-    }
 }
 
 void MyDataStore::dump(std::ostream& ofile) {

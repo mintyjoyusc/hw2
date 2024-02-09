@@ -11,42 +11,23 @@ Menu:
 ====================================
 
 Enter command: 
-Hit   1
-Data Abstraction & Problem Solving with C++         
-Author: Carrano and Henry ISBN: 978-013292372-9
-79.99  20 left.
+No results found!
 
+Enter command: 
+Invalid hit number
+
+Enter command: 
+No results found!
+
+Enter command: 
+Invalid hit number
+
+Enter command: 
+Cart is empty or user does not exist.
 
 Enter command: 
 
 Enter command: 
-Hit   1
-Data Abstraction & Problem Solving with C++         
-Author: Carrano and Henry ISBN: 978-013292372-9
-79.99  20 left.
-
-
-Enter command: 
-
-Enter command: 
-Item 1
-Data Abstraction & Problem Solving with C++         
-Author: Carrano and Henry ISBN: 978-013292372-9
-79.99  20 left.
-
-Item 2
-Data Abstraction & Problem Solving with C++         
-Author: Carrano and Henry ISBN: 978-013292372-9
-79.99  20 left.
-
-
-Enter command: 
-
-Enter command: 
-Item 1
-Data Abstraction & Problem Solving with C++         
-Author: Carrano and Henry ISBN: 978-013292372-9
-79.99  19 left.
-
+Cart is empty or user does not exist.
 
 Enter command: 

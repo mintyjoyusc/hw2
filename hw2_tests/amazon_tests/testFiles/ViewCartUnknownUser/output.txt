@@ -11,6 +11,6 @@ Menu:
 ====================================
 
 Enter command: 
-Invalid username
+Cart is empty or user does not exist.
 
 Enter command: 
