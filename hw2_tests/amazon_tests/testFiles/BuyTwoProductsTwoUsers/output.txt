@@ -11,89 +11,48 @@ Menu:
 ====================================
 
 Enter command: 
-<<<<<<< HEAD
-No results found!
-=======
 Hit   1
 Great Men and Women of Troy
 Author: Tommy Trojan ISBN: 978-000000000-1
 19.5 5 left.
 
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
-<<<<<<< HEAD
-Invalid hit number
-=======
 Product added to cart
->>>>>>> 47229486abc4476413494b2670679877b00e040b
 
 Enter command: 
-<<<<<<< HEAD
-No results found!
-=======
 Hit   1
 Hidden Figures DVD
 Genre: Drama Rating: PG
 17.99 5 left.
 
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
-<<<<<<< HEAD
-Invalid hit number
-=======
 Product added to cart
->>>>>>> 47229486abc4476413494b2670679877b00e040b
 
 Enter command: 
-<<<<<<< HEAD
-No results found!
-=======
 Hit   1
 Great Men and Women of Troy
 Author: Tommy Trojan ISBN: 978-000000000-1
 19.5 5 left.
 
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
-<<<<<<< HEAD
-Invalid hit number
-=======
 Product added to cart
->>>>>>> 47229486abc4476413494b2670679877b00e040b
 
 Enter command: 
-<<<<<<< HEAD
-No results found!
-=======
 Hit   1
 Data Abstraction & Problem Solving with C++
 Author: Carrano and Henry ISBN: 978-013292372-9
 79.99 20 left.
 
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
-<<<<<<< HEAD
-Invalid hit number
-
-Enter command: 
-<<<<<<< HEAD
-Cart is empty or user does not exist.
-
-Enter command: 
-Cart is empty or user does not exist.
-=======
-1: Great Men and Women of Troy
-=======
 Product added to cart
 
 Enter command: 
 Item 1
 Great Men and Women of Troy
->>>>>>> 47229486abc4476413494b2670679877b00e040b
 Author: Tommy Trojan ISBN: 978-000000000-1
 19.5 5 left.
 Item 2
@@ -110,7 +69,6 @@ Item 2
 Data Abstraction & Problem Solving with C++
 Author: Carrano and Henry ISBN: 978-013292372-9
 79.99 20 left.
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
 

@@ -6,17 +6,12 @@
 
 #IncludeRegexTransform: ^([ 	]*[#%][ 	]*(include|import)[ 	]*)(KWSYS_HEADER)[ 	]*\(([^),]*)\) KWSYS_HEADER(%)=<kwsys/%>
 
-<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Encoding.h.in
-=======
-/work/hw2/hw2_tests/testing_utils/kwsys/Encoding.h.in
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 @KWSYS_NAMESPACE@/Configure.h
 -
 wchar.h
 -
 
-<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/EncodingC.c
 kwsysPrivate.h
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
@@ -24,23 +19,9 @@ kwsys/Encoding.h
 -
 Encoding.h.in
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Encoding.h.in
-=======
-/work/hw2/hw2_tests/testing_utils/kwsys/EncodingC.c
-kwsysPrivate.h
-/work/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
-kwsys/Encoding.h
--
-Encoding.h.in
-/work/hw2/hw2_tests/testing_utils/kwsys/Encoding.h.in
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 stdlib.h
 -
 windows.h
--
-
-<<<<<<< HEAD
-/home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Process.h.in
-@KWSYS_NAMESPACE@/Configure.h
 -
 
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/ProcessUNIX.c
@@ -51,60 +32,6 @@ kwsysPrivate.h
 @KWSYS_NAMESPACE@/Configure.h
 -
 
-/work/hw2/hw2_tests/testing_utils/kwsys/ProcessUNIX.c
-kwsysPrivate.h
-/work/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
-kwsys/Process.h
--
-kwsys/System.h
--
-Process.h.in
-<<<<<<< HEAD
-/home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/Process.h.in
-System.h.in
-/home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/System.h.in
-=======
-/work/hw2/hw2_tests/testing_utils/kwsys/Process.h.in
-System.h.in
-/work/hw2/hw2_tests/testing_utils/kwsys/System.h.in
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
-assert.h
--
-ctype.h
--
-dirent.h
--
-errno.h
--
-fcntl.h
--
-signal.h
--
-stddef.h
--
-stdio.h
--
-stdlib.h
--
-string.h
--
-sys/stat.h
--
-sys/time.h
--
-sys/types.h
--
-sys/wait.h
--
-time.h
--
-unistd.h
--
-be/kernel/OS.h
--
-
-<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/System.c
 kwsysPrivate.h
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
@@ -112,15 +39,6 @@ kwsys/System.h
 -
 System.h.in
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/System.h.in
-=======
-/work/hw2/hw2_tests/testing_utils/kwsys/System.c
-kwsysPrivate.h
-/work/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
-kwsys/System.h
--
-System.h.in
-/work/hw2/hw2_tests/testing_utils/kwsys/System.h.in
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 ctype.h
 -
 stddef.h
@@ -132,7 +50,6 @@ string.h
 stdio.h
 -
 
-<<<<<<< HEAD
 /home/codio/workspace/hw2/hw2_tests/testing_utils/kwsys/System.h.in
 @KWSYS_NAMESPACE@/Configure.h
 -
@@ -143,29 +60,12 @@ stdio.h
 @KWSYS_NAMESPACE@/Configure.h
 -
 
-/work/hw2/hw2_tests/testing_utils/kwsys/kwsysPrivate.h
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
-kwsys/Directory.hxx
--
-kwsys/std/vector
--
-
 testing_utils/generated_headers/kwsys/Configure.h
-
-testing_utils/generated_headers/kwsys/Directory.hxx
-kwsys/Configure.h
--
-string
--
 
 testing_utils/generated_headers/kwsys/Encoding.h
 kwsys/Configure.h
 -
 wchar.h
--
-
-testing_utils/generated_headers/kwsys/Process.h
-kwsys/Configure.h
 -
 
 testing_utils/generated_headers/kwsys/System.h

@@ -12,15 +12,9 @@ Menu:
 
 Enter command: 
 Hit   1
-<<<<<<< HEAD
-
-Genre: Drama
-0 0 left.
-=======
 Hidden Figures DVD
 Genre: Drama Rating: PG
 17.99 1 left.
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 
 Enter command: 

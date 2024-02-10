@@ -1,4 +1,4 @@
-#include "mydatastore.h"
+#include "MyDataStore.h"
 #include "util.h"  
 
 MyDataStore::MyDataStore() {
@@ -37,21 +37,13 @@ void MyDataStore::addUser(User* u) {
 
     users_.insert(make_pair(u->getName(), u)); 
 }
-<<<<<<< HEAD
-=======
 
 void MyDataStore::addProductToCart(const std::string& username, Product* p) {
     std::map<std::string, std::vector<Product*>>::iterator it = carts_.find(username);
     if (it == carts_.end()) {
         carts_[username] = std::vector<Product*>();  // Initialize an empty cart for new user
     }
-<<<<<<< HEAD
     carts_[username].push_back(p); }
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
-=======
-    carts_[username].push_back(p); 
-}
->>>>>>> 47229486abc4476413494b2670679877b00e040b
 
 std::vector<Product*> MyDataStore::search(std::vector<std::string>& terms, int type) {
         std::set<Product*> results;
@@ -101,8 +93,6 @@ std::vector<Product*> MyDataStore::search(std::vector<std::string>& terms, int t
     return std::vector<Product*>(results.begin(), results.end());
 }
 
-<<<<<<< HEAD
-=======
 void MyDataStore::viewCart(const std::string& username) {
     std::map<std::string, std::vector<Product*>>::iterator it = carts_.find(username);
     if (it == carts_.end() || it->second.empty()) {
@@ -154,15 +144,11 @@ void MyDataStore::buyCart(const std::string& username) {
     }
 }
 
-<<<<<<< HEAD
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
-=======
 bool MyDataStore::userExists(const std::string& username) const {
 
     return users_.find(username) != users_.end();
 }
 
->>>>>>> 47229486abc4476413494b2670679877b00e040b
 void MyDataStore::dump(std::ostream& ofile) {
     ofile << "<products>" << std::endl;
     // Iterate over the map of products

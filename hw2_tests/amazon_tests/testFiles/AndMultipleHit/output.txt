@@ -12,11 +12,6 @@ Menu:
 
 Enter command: 
 Hit   1
-<<<<<<< HEAD
-
-Author: Carrano and Henry ISBN: 978-013292372-9
-0 0 left.
-=======
 Great Heights
 Genre: and Rating: PG-13
 22.49 5 left.
@@ -25,7 +20,6 @@ Hit   2
 Great Men and Women of Troy
 Author: Tommy Trojan ISBN: 978-000000000-1
 19.5 5 left.
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 
 Enter command: 

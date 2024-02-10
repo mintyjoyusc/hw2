@@ -11,12 +11,6 @@ Menu:
 ====================================
 
 Enter command: 
-<<<<<<< HEAD
-No results found!
-
-Enter command: 
-Invalid hit number
-=======
 Hit   1
 Great Men and Women of Troy
 Author: Tommy Trojan ISBN: 978-000000000-1
@@ -24,10 +18,6 @@ Author: Tommy Trojan ISBN: 978-000000000-1
 
 
 Enter command: 
-<<<<<<< HEAD
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
-=======
 Invalid request
->>>>>>> 47229486abc4476413494b2670679877b00e040b
 
 Enter command: 

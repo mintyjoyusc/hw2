@@ -1,12 +1,10 @@
 <products>
-
-
-0
-0
+book
+Data Abstraction & Problem Solving with C++
+79.99
+20
 978-013292372-9
 Carrano and Henry
-<<<<<<< HEAD
-=======
 book
 Great Men and Women of Troy
 19.5
@@ -25,10 +23,9 @@ Men's Fitted Shirt
 25
 Medium
 J. Crew
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 </products>
 <users>
 rafsilva 100 0
 redekopp 50 1
-saty 120 1
+saty 84.02 1
 </users>

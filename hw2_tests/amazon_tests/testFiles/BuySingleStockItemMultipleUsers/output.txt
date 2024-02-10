@@ -11,40 +11,24 @@ Menu:
 ====================================
 
 Enter command: 
-<<<<<<< HEAD
-No results found!
-=======
 Hit   1
 Hidden Figures DVD
 Genre: Drama Rating: PG
 17.99 1 left.
 
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
-<<<<<<< HEAD
-Invalid hit number
-=======
 Product added to cart
->>>>>>> 47229486abc4476413494b2670679877b00e040b
 
 Enter command: 
-<<<<<<< HEAD
-No results found!
-=======
 Hit   1
 Hidden Figures DVD
 Genre: Drama Rating: PG
 17.99 1 left.
 
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 Enter command: 
-<<<<<<< HEAD
-Invalid hit number
-=======
 Product added to cart
->>>>>>> 47229486abc4476413494b2670679877b00e040b
 
 Enter command: 
 

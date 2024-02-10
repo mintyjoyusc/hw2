@@ -12,11 +12,6 @@ Menu:
 
 Enter command: 
 Hit   1
-<<<<<<< HEAD
-
-Genre: Disaster
-0 0 left.
-=======
 FOO
 Genre: Disaster Rating: PG-13
 0.99 8 left.
@@ -25,7 +20,6 @@ Hit   2
 foo
 Genre: Programming Rating: TV-14
 20.25 4 left.
->>>>>>> 4e4fe8c9d6258fbdf7dca7a936037170278e50a9
 
 
 Enter command: 
